@@ -1,0 +1,105 @@
+body
+{
+	background-image: url("g1.jpg");
+    background-position: center;
+}
+#main
+{
+	margin: 3%;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 3%;
+}
+.left
+{
+	color:white;
+	text-align: center;
+	border-radius: 4%;
+	width: 30%;
+	height: 50%;
+	margin: 5%;
+	border: 3px solid ;
+	box-shadow: 2px 2px 2px 2px  white;
+}
+.right
+{
+	color: white;
+	border-radius: 4%;
+	box-shadow: 2px 2px 2px 2px  white;
+	border: 3px solid ;
+	margin: 3%;
+	width: 70%;
+	padding: 2%;
+	
+}
+img
+{
+	margin: 3%;
+	width: 50%;
+	height: 50%;
+}
+/*mobile view*/
+@media screen and (max-width:480px){
+body
+{
+	background-image: url("m1.jpg")
+}
+#main
+{
+	margin: 3%;
+	display: inline-block;
+	justify-content: space-around;
+	border-radius: 3%;
+}
+.left
+{
+	
+	text-align: center;
+	border-radius: 4%;
+	width: 80%;
+	margin: 5%;
+	box-shadow: 3px 3px 3px black;
+}
+.right
+{
+	background: transparent;
+	color: white;
+	border-radius: 4%;
+	box-shadow: 3px 3px 3px black;
+	margin: 3%;
+	width: 80%;
+	padding: 2%;	
+}
+}
+@media screen and (min-width:480px) and (max-width:720px){
+	body{
+		background-image:url(t1.jpg);
+	}
+	#main
+	{
+		margin: 3%;
+		display: flex;
+		justify-content: space-around;
+		border-radius: 3%;
+	}
+	.left
+	{
+		background:transparent;
+		color: white;
+		text-align: center;
+		border-radius: 4%;
+		width: 80%;
+		margin: 5%;
+		box-shadow: 3px 3px 3px black;
+	}
+	.right
+	{
+		background: transparent;
+		color:white;
+		border-radius: 4%;
+		box-shadow: 3px 3px 3px black;
+		margin: 3%;
+		width: 80%;
+		padding: 2%;	
+	}	
+}

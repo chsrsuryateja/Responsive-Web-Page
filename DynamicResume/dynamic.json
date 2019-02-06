@@ -1,0 +1,46 @@
+{
+    "profile":{
+        "img":"ap1.png",
+        "name":"Ch S R Surya Teja",
+        "roll":"17A31A0534",
+        "email":"chsrsuryateja@gmail.com",
+        "clg":"Pragati Engineering College"    
+    },
+    "career":{
+            "info":"To secure a challenging position where I can utilize my skills and talents.",
+          "edu":[
+              {
+              "sno":"1","ins":"Pragati Engineering College","percnt":"88.6%","yop":"2021"
+          },
+          {
+              "sno":"2","ins":"Sir Chaitanaya Junior College","percnt":"84.6%","yop":"2017"
+          },
+          {
+              "sno":"3","ins":"Ashram Public School","percnt":"86%","yop":"2015"
+          }
+      ],
+      "language":[
+          {
+              "lang":"English"
+          },
+          {
+              "lang":"Telugu"
+          }
+      ],
+      "skills":[
+          {
+              "s":"C"
+          },
+        {
+            "s":"C++"
+        },
+        {
+            "s":"Python"
+        },
+        {
+            "s":"Java"
+        }
+      ]
+    }
+    
+}
